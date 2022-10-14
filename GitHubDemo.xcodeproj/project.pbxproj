@@ -17,6 +17,8 @@
 		D6424CA428F94E53003202D9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6424C7A28F94E50003202D9 /* MainView.swift */; };
 		D6424CA528F94E53003202D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6424C7B28F94E53003202D9 /* Assets.xcassets */; };
 		D6424CA628F94E53003202D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6424C7B28F94E53003202D9 /* Assets.xcassets */; };
+		D6424CB628F9509B003202D9 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6424CB528F9509B003202D9 /* SecondView.swift */; };
+		D6424CB728F9509B003202D9 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6424CB528F9509B003202D9 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		D6424C9928F94E53003202D9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6424C9D28F94E53003202D9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D6424C9F28F94E53003202D9 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		D6424CB528F9509B003202D9 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				D6424C7928F94E50003202D9 /* GitHubDemoApp.swift */,
 				D6424C7A28F94E50003202D9 /* MainView.swift */,
+				D6424CB528F9509B003202D9 /* SecondView.swift */,
 				D6424C7B28F94E53003202D9 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6424CB628F9509B003202D9 /* SecondView.swift in Sources */,
 				D6424CA328F94E53003202D9 /* MainView.swift in Sources */,
 				D6424CA128F94E53003202D9 /* GitHubDemoApp.swift in Sources */,
 			);
@@ -308,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6424CB728F9509B003202D9 /* SecondView.swift in Sources */,
 				D6424CA428F94E53003202D9 /* MainView.swift in Sources */,
 				D6424CA228F94E53003202D9 /* GitHubDemoApp.swift in Sources */,
 			);
